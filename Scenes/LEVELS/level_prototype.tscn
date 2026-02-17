@@ -20,7 +20,6 @@ ssr_enabled = true
 glow_enabled = true
 
 [node name="Level_Prototype" type="Node3D" unique_id=1926063042]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.1654968, 0)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=217563546]
 environment = SubResource("Environment_gxjpg")
