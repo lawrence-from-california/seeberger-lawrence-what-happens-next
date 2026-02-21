@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bou8y5de6ompr"]
+
+[ext_resource type="Texture2D" uid="uid://caoecc5hdgmmw" path="res://Assets/dungeon_assets/Rock.png" id="1_nk6c7"]
+
+[resource]
+albedo_color = Color(0.63654023, 0.6066664, 0.35260832, 1)
+albedo_texture = ExtResource("1_nk6c7")
