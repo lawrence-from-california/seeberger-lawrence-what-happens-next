@@ -5,7 +5,7 @@
 
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_e16f0"]
 height = 2.3497314
-radius = 0.1772461
+radius = 0.9213867
 
 [node name="Conifer" type="StaticBody3D" unique_id=2008314966]
 

@@ -1,17 +1,22 @@
 [gd_scene format=3 uid="uid://bicn35g1lnvn6"]
 
+[ext_resource type="PackedScene" uid="uid://cw552dnut01wl" path="res://Scenes/OBJECTS/merch.tscn" id="1_0dlbs"]
 [ext_resource type="PackedScene" uid="uid://c26msiirqqcm6" path="res://Scenes/OBJECTS/wall.tscn" id="1_a7xsu"]
 [ext_resource type="Texture2D" uid="uid://ctgerkdmafuua" path="res://Assets/import_examples/barrel/Troll Castle.png" id="1_a35v5"]
 [ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://AddOns/proto_controller/proto_controller.tscn" id="1_f1076"]
-[ext_resource type="PackedScene" uid="uid://chsuc1g5x38kw" path="res://Scenes/OBJECTS/crates.tscn" id="1_i3ii5"]
 [ext_resource type="PackedScene" uid="uid://b04f5c3sjvh8y" path="res://Scenes/OBJECTS/t_wall.tscn" id="2_gxjpg"]
 [ext_resource type="Texture2D" uid="uid://wum5qfqrhdsg" path="res://Assets/import_examples/barrel/Troll King Castle.png" id="2_tknu4"]
+[ext_resource type="Texture2D" uid="uid://b1vcxexcxgl4h" path="res://Assets/Snaily/Candycap2.png" id="2_uwgmp"]
+[ext_resource type="Texture2D" uid="uid://db1sj0qgravp0" path="res://Assets/Snaily/Snaily.png" id="2_vqeh1"]
 [ext_resource type="Material" uid="uid://p1yiw17sg76" path="res://Assets/Materials/Silver.tres" id="3_idy2o"]
 [ext_resource type="Material" uid="uid://bou8y5de6ompr" path="res://Assets/Materials/Grass Texture.tres" id="3_otpxj"]
 [ext_resource type="Material" uid="uid://cc672s478diug" path="res://Assets/import_examples/barrel/new_standard_material_3d.tres" id="3_tknu4"]
+[ext_resource type="Texture2D" uid="uid://ctvdm84y1ljms" path="res://Assets/Snaily/Tomatocopter1.png" id="4_u5q6v"]
+[ext_resource type="Texture2D" uid="uid://uskvd2bnhcbm" path="res://Assets/Snaily/Madflower1.png" id="5_0l8bh"]
 [ext_resource type="PackedScene" uid="uid://mqbcm3apwqci" path="res://Assets/import_examples/barrel/doorway_no_door.tscn" id="7_274q2"]
 [ext_resource type="PackedScene" uid="uid://clr2fuk47bfnv" path="res://Assets/dungeon_assets/building/wall_corner.glb" id="8_a35v5"]
 [ext_resource type="PackedScene" uid="uid://cmabdi7d3hyhi" path="res://Scenes/OBJECTS/tree.tscn" id="9_x2ult"]
+[ext_resource type="FontFile" uid="uid://r1y3utxgeyr8" path="res://Scenes/LEVELS/ScratchedOut-Regular.otf" id="10_ae6jh"]
 [ext_resource type="PackedScene" uid="uid://p3cnvdv3b0oi" path="res://Scenes/OBJECTS/corner_wall.tscn" id="10_hy2qd"]
 [ext_resource type="PackedScene" uid="uid://wqw7xrf3g4ab" path="res://Assets/import_examples/barrel/bush.tscn" id="10_x2ult"]
 [ext_resource type="PackedScene" uid="uid://t0bmkr3u2mn0" path="res://Scenes/OBJECTS/snail.tscn" id="12_kcqjl"]
@@ -22,7 +27,6 @@
 [ext_resource type="PackedScene" uid="uid://bpcaf0fodid0n" path="res://Scenes/OBJECTS/big_rock.tscn" id="15_p5tck"]
 [ext_resource type="Material" uid="uid://bt83lmbkg0abe" path="res://Assets/Materials/sand.tres" id="15_uclfd"]
 [ext_resource type="PackedScene" uid="uid://ddrds05tu7ty6" path="res://Scenes/OBJECTS/grass.tscn" id="16_f13b3"]
-[ext_resource type="PackedScene" uid="uid://g1xjosunq0pu" path="res://Scenes/OBJECTS/table.tscn" id="17_8xrdt"]
 [ext_resource type="PackedScene" uid="uid://qtd0547yl2dt" path="res://Scenes/OBJECTS/sword.tscn" id="18_566oi"]
 [ext_resource type="PackedScene" uid="uid://c0jxu0s8nscxt" path="res://Scenes/OBJECTS/salamander.tscn" id="19_unhwq"]
 [ext_resource type="PackedScene" uid="uid://crmrhi88x5cpn" path="res://Scenes/OBJECTS/statue_base.tscn" id="20_yqrud"]
@@ -30,6 +34,7 @@
 [ext_resource type="PackedScene" uid="uid://dcjjhn34glr4f" path="res://Scenes/OBJECTS/headstone.tscn" id="22_v8pkc"]
 [ext_resource type="PackedScene" uid="uid://bc0dx3rpiks5" path="res://Scenes/OBJECTS/cross_headstone.tscn" id="23_4pbc5"]
 [ext_resource type="PackedScene" uid="uid://gidow4tneco4" path="res://Scenes/OBJECTS/sunflower.tscn" id="25_4d50r"]
+[ext_resource type="FontFile" uid="uid://bkjwngtatl552" path="res://Assets/FineBritishArtist-Regular.otf" id="25_a0hcx"]
 [ext_resource type="PackedScene" uid="uid://evhjo1uopd6v" path="res://Scenes/OBJECTS/Mushroom.tscn" id="26_fed8f"]
 [ext_resource type="PackedScene" uid="uid://clywp8evtcnes" path="res://Scenes/OBJECTS/log.tscn" id="27_ebqv6"]
 [ext_resource type="PackedScene" uid="uid://dvqdqrlf7y7or" path="res://Scenes/OBJECTS/magpie.tscn" id="28_l357c"]
@@ -45,8 +50,24 @@
 [ext_resource type="PackedScene" uid="uid://cbitkmha4eo8m" path="res://Scenes/OBJECTS/metal_table.tscn" id="42_idy2o"]
 [ext_resource type="PackedScene" uid="uid://nlqgy83vdieo" path="res://Scenes/OBJECTS/well.tscn" id="42_rcpsq"]
 [ext_resource type="PackedScene" uid="uid://d055yitugy7ll" path="res://Assets/dungeon_assets/props/stagecoach.tscn" id="43_rcpsq"]
+[ext_resource type="PackedScene" uid="uid://d4ehtuavrfcdd" path="res://Scenes/OBJECTS/robot.tscn" id="44_07ktq"]
 [ext_resource type="PackedScene" uid="uid://bvqg50ajcivgm" path="res://Scenes/OBJECTS/ufo.tscn" id="45_idy2o"]
-[ext_resource type="AudioStream" uid="uid://cv0g8340t7xsh" path="res://Village of the Animals.mp3" id="47_mljdi"]
+[ext_resource type="PackedScene" uid="uid://dfxhg6owbm6gg" path="res://Scenes/OBJECTS/blankposter.tscn" id="46_56l26"]
+[ext_resource type="FontFile" uid="uid://b46c14a3qy7u8" path="res://Assets/Supershine-Regular.otf" id="47_7u6hc"]
+[ext_resource type="PackedScene" uid="uid://cx2f0ypml0rwl" path="res://Scenes/OBJECTS/longwoodtable.tscn" id="48_rpr4p"]
+[ext_resource type="PackedScene" uid="uid://dgj0kx30pbxnq" path="res://Scenes/OBJECTS/apple.tscn" id="49_j3jwn"]
+[ext_resource type="PackedScene" uid="uid://b371vvnmuckeg" path="res://Scenes/OBJECTS/abigail.tscn" id="50_j3jwn"]
+[ext_resource type="PackedScene" uid="uid://lbm5574v4i7" path="res://Scenes/OBJECTS/shelf.tscn" id="53_vqeh1"]
+[ext_resource type="Texture2D" uid="uid://y6m6eyk4rjka" path="res://Assets/Snaily/EPIC SNAIL.png" id="55_4qkpf"]
+[ext_resource type="PackedScene" uid="uid://bsc17w4lcf2so" path="res://Scenes/OBJECTS/mug.tscn" id="57_cw50e"]
+[ext_resource type="FontFile" uid="uid://djao3v7ny88r4" path="res://Scenes/ChildhoodDiary-Regular.otf" id="58_0l8bh"]
+[ext_resource type="PackedScene" uid="uid://d34k48sk6wux2" path="res://Scenes/OBJECTS/foldedshirt.tscn" id="59_stduh"]
+[ext_resource type="Texture2D" uid="uid://2rqcbq3plnix" path="res://Assets/Snaily/Tumbleweed.png" id="60_fjltq"]
+[ext_resource type="PackedScene" uid="uid://ruuyaloa5867" path="res://Scenes/OBJECTS/Register.tscn" id="61_5cp1y"]
+[ext_resource type="PackedScene" uid="uid://rt6o4k6uxni2" path="res://Scenes/OBJECTS/ring.tscn" id="62_fjltq"]
+[ext_resource type="PackedScene" uid="uid://fvrue33a57ki" path="res://Scenes/OBJECTS/woodcounter.tscn" id="62_g21lx"]
+[ext_resource type="Material" uid="uid://bk8rq2bydt4av" path="res://Assets/Bark Texture.tres" id="67_g21lx"]
+[ext_resource type="FontFile" uid="uid://n5at0stjt3bf" path="res://Scenes/BigBad-Regular.otf" id="68_xrlw8"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_f1076"]
 sky_top_color = Color(0.11060319, 0.52594155, 0.47827816, 1)
@@ -119,6 +140,57 @@ metallic = 0.51
 roughness_texture = ExtResource("2_tknu4")
 
 [sub_resource type="ORMMaterial3D" id="ORMMaterial3D_otpxj"]
+
+[sub_resource type="Animation" id="Animation_07ktq"]
+resource_name = "Panic"
+length = 2.0333333
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.33333334, 0.9, 1.3666667, 2),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 3.1415927, 0), Vector3(0, 3.1415927, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.19999999, 0.96666664, 1.2666667),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(-172.5839, -18.644993, -447.0439), Vector3(-172.5839, -18.644993, -447.0439), Vector3(-135.86261, -18.644993, -447.0439), Vector3(-135.86261, -18.644993, -447.0439)]
+}
+
+[sub_resource type="Animation" id="Animation_ae6jh"]
+length = 0.001
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-172.5839, -18.644993, -447.0439)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_a0hcx"]
+_data = {
+&"Panic": SubResource("Animation_07ktq"),
+&"RESET": SubResource("Animation_ae6jh")
+}
 
 [sub_resource type="Animation" id="Animation_kcqjl"]
 resource_name = "Movement"
@@ -204,6 +276,42 @@ environment = SubResource("Environment_gxjpg")
 [node name="CSGCombiner3D" type="CSGCombiner3D" parent="." unique_id=1994653060]
 use_collision = true
 
+[node name="Merch" parent="CSGCombiner3D" unique_id=1786576080 instance=ExtResource("1_0dlbs")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -210.9033, -11.685155, -1.1350746)
+
+[node name="Sprite3D" type="Sprite3D" parent="CSGCombiner3D/Merch" unique_id=1941409629]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.15934241, 0.051079154, -0.36254883)
+pixel_size = 0.02
+texture_filter = 0
+texture = ExtResource("2_vqeh1")
+
+[node name="Merch2" parent="CSGCombiner3D" unique_id=2048743097 instance=ExtResource("1_0dlbs")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -210.92468, 0.8378382, -1.2988954)
+
+[node name="Sprite3D2" type="Sprite3D" parent="CSGCombiner3D/Merch2" unique_id=838916684]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18274537, 0.060237892, -0.35949516)
+pixel_size = 0.02
+texture_filter = 0
+texture = ExtResource("2_uwgmp")
+
+[node name="Merch3" parent="CSGCombiner3D" unique_id=973838979 instance=ExtResource("1_0dlbs")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -210.9033, -11.685155, -49.87658)
+
+[node name="Sprite3D" type="Sprite3D" parent="CSGCombiner3D/Merch3" unique_id=1162251907]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.15934241, 0.051079154, -0.36254883)
+pixel_size = 0.02
+texture_filter = 0
+texture = ExtResource("4_u5q6v")
+
+[node name="Merch4" parent="CSGCombiner3D" unique_id=64491551 instance=ExtResource("1_0dlbs")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -210.92468, 0.8378382, -50.0404)
+
+[node name="Sprite3D2" type="Sprite3D" parent="CSGCombiner3D/Merch4" unique_id=1348830101]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18274537, 0.060237892, -0.35949516)
+pixel_size = 0.02
+texture_filter = 0
+texture = ExtResource("5_0l8bh")
+
 [node name="Floor2" type="CSGBox3D" parent="CSGCombiner3D" unique_id=461747225]
 transform = Transform3D(1, 0, 0, 0, 0.004956782, -0.9999877, 0, 0.9999877, 0.004956782, 0, -23.549566, -195.05656)
 size = Vector3(50, 393.0974, 50)
@@ -241,9 +349,6 @@ material_overlay = SubResource("StandardMaterial3D_274q2")
 size = Vector3(500, 1000, 1)
 material = ExtResource("3_otpxj")
 
-[node name="Crates" parent="CSGCombiner3D" unique_id=1645043447 instance=ExtResource("1_i3ii5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -44.824913, -24.233566, -129.73141)
-
 [node name="Wall" parent="CSGCombiner3D" unique_id=1702900097 instance=ExtResource("1_a7xsu")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -105.530975, -27, -151)
 
@@ -266,7 +371,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -178.25946, -27, -151)
 transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, -27.1963, -27.268246, -150.98659)
 
 [node name="TWall3" parent="CSGCombiner3D" unique_id=1987705033 instance=ExtResource("2_gxjpg")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -217.57085, -27.017918, -150.77711)
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -217.57085, -27.017918, -150.99184)
 
 [node name="TWall6" parent="CSGCombiner3D" unique_id=2024608930 instance=ExtResource("2_gxjpg")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -217.37451, -27.017918, -345.25482)
@@ -347,7 +452,7 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 26.1
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 26.171312, -27, -423.9053)
 
 [node name="Wall56" parent="CSGCombiner3D" unique_id=319221274 instance=ExtResource("1_a7xsu")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 229.9506, -27, -443.13483)
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 229.85548, -27, -443.39426)
 
 [node name="Wall57" parent="CSGCombiner3D" unique_id=653320229 instance=ExtResource("1_a7xsu")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 229.9506, -27, -404.69727)
@@ -503,10 +608,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -151.10115, -27, 287.37634)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -189.48383, -27.000008, 287.76434)
 
 [node name="Wall53" parent="CSGCombiner3D" unique_id=1106556031 instance=ExtResource("1_a7xsu")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -106.420616, -27, -460.49728)
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -106.100685, -27, -460.49728)
 
 [node name="Wall92" parent="CSGCombiner3D" unique_id=3136184 instance=ExtResource("1_a7xsu")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -106.420616, -27, -381.7986)
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -106.06472, -27, -381.7986)
 
 [node name="Wall10" parent="CSGCombiner3D" unique_id=1165130828 instance=ExtResource("1_a7xsu")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -217.45357, -27, -36.949875)
@@ -557,7 +662,18 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 77.221634, -27.034147, 287.38
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 190.73917, -27.034147, 59.311073)
 
 [node name="Doorway no door2" parent="CSGCombiner3D" unique_id=2127556188 instance=ExtResource("7_274q2")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -106.348076, -27.034147, -420.54843)
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -106.06697, -27.034147, -420.54843)
+
+[node name="Label3D" type="Label3D" parent="CSGCombiner3D/Doorway no door2" unique_id=1027737434]
+transform = Transform3D(0.81915206, 0.57357645, 0, -0.57357645, 0.81915206, 0, 0, 0, 1, 21.873566, 13.797384, 2.652649)
+transparency = 0.54
+modulate = Color(0, 0, 0, 1)
+outline_modulate = Color(0.23, 0.23, 0.23, 1)
+text = "ABIGAIL WAS 
+HERE!"
+font = ExtResource("10_ae6jh")
+font_size = 256
+outline_size = 40
 
 [node name="Doorway no door7" parent="CSGCombiner3D" unique_id=1563557820 instance=ExtResource("7_274q2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -145.11299, -27.034147, -345.2683)
@@ -566,7 +682,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -145.11299, -27.034147, -345.
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -182.24722, -27.034147, -345.2683)
 
 [node name="Doorway no door3" parent="CSGCombiner3D" unique_id=237744544 instance=ExtResource("7_274q2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -140.79672, -27.034147, -151.14397)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -140.79672, -27.034147, -150.99461)
 
 [node name="Doorway no door4" parent="CSGCombiner3D" unique_id=762014266 instance=ExtResource("7_274q2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -105.172005, -27.034147, 59.287533)
@@ -678,7 +794,7 @@ size = Vector3(4686.0776, 0.1, 4358.91)
 material = ExtResource("15_uclfd")
 
 [node name="Conifer" parent="CSGCombiner3D" unique_id=2008314966 instance=ExtResource("14_c5qpp")]
-transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 109.21185, -17.678932, 0)
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 109.21185, -17.678932, 7.281736)
 
 [node name="Conifer2" parent="CSGCombiner3D" unique_id=752591456 instance=ExtResource("14_c5qpp")]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 135.91843, -17.678932, 37.684387)
@@ -726,10 +842,10 @@ transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 212.7857, -22.97666, 277.6985
 transform = Transform3D(-2.9991045, 0, 0.07329686, 0, 3, 0, -0.07329686, 0, -2.9991045, 181.94977, -22.97666, 396.81943)
 
 [node name="Grass" parent="CSGCombiner3D" unique_id=1312147716 instance=ExtResource("16_f13b3")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 109.20564, -22.868504, 2.7602558)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 106.417336, -22.815632, 6.5805826)
 
 [node name="Grass2" parent="CSGCombiner3D" unique_id=1987732775 instance=ExtResource("16_f13b3")]
-transform = Transform3D(0.98510927, 0, 0.17192908, 0, 1, 0, -0.17192908, 0, 0.98510927, 158.92302, -22.868504, 2.9795346)
+transform = Transform3D(0.98510927, 0, 0.17192908, 0, 1, 0, -0.17192908, 0, 0.98510927, 162.11983, -23.585938, 2.9795346)
 
 [node name="Grass3" parent="CSGCombiner3D" unique_id=912999226 instance=ExtResource("16_f13b3")]
 transform = Transform3D(0.98510927, 0, 0.17192908, 0, 1, 0, -0.17192908, 0, 0.98510927, 138.3196, -22.868504, 36.78715)
@@ -2541,7 +2657,7 @@ transform = Transform3D(-0.23514214, 0, 0.971961, 0, 1, 0, -0.971961, 0, -0.2351
 transform = Transform3D(-0.23514213, 0, 0.97196096, 0, 1, 0, -0.97196096, 0, -0.23514213, -124.2061, -22.868504, -229.02202)
 
 [node name="Grass8" parent="CSGCombiner3D" unique_id=1912253701 instance=ExtResource("16_f13b3")]
-transform = Transform3D(0.66392624, 0, -0.74779797, 0, 1, 0, 0.74779797, 0, 0.66392624, 108.54106, -22.868504, -3.3907318)
+transform = Transform3D(0.66392624, 0, -0.74779797, 0, 1, 0, 0.74779797, 0, 0.66392624, 108.54106, -22.868504, 3.099863)
 
 [node name="Tree 10" parent="CSGCombiner3D" unique_id=1948745387 instance=ExtResource("9_x2ult")]
 transform = Transform3D(5.8495765, 0, 8.110639, 0, 10, 0, -8.110639, 0, 5.8495765, 187.56308, -22.150032, -142.96725)
@@ -4922,12 +5038,6 @@ transform = Transform3D(0.5849576, 0, 0.81106377, 0, 1, 0, -0.81106377, 0, 0.584
 [node name="Grass16" parent="CSGCombiner3D" unique_id=1734409 instance=ExtResource("16_f13b3")]
 transform = Transform3D(0.5849576, 0, 0.8110637, 0, 1, 0, -0.8110637, 0, 0.5849576, 108.54106, -22.868504, -262.33606)
 
-[node name="Table" parent="CSGCombiner3D" unique_id=1912491203 instance=ExtResource("17_8xrdt")]
-transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, -111.523964, -23.4002, -83.16997)
-
-[node name="Table2" parent="CSGCombiner3D" unique_id=578871949 instance=ExtResource("17_8xrdt")]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -210.55031, -23.4002, -448.4858)
-
 [node name="Sword" parent="CSGCombiner3D" unique_id=458176203 instance=ExtResource("18_566oi")]
 transform = Transform3D(4.7132072, -1.6690344, 0, 1.6690344, 4.7132072, 0, 0, 0, 5, 125.56307, -21.778019, -205.24812)
 
@@ -5000,6 +5110,9 @@ transform = Transform3D(0.5849576, 0, 0.8110637, 0, 1, 0, -0.8110637, 0, 0.58495
 [node name="Tree 35" parent="CSGCombiner3D" unique_id=1237789107 instance=ExtResource("9_x2ult")]
 transform = Transform3D(5.8495765, 0, 8.110639, 0, 10, 0, -8.110639, 0, 5.8495765, -62.24148, -22.150032, -294.27283)
 
+[node name="Tree 53" parent="CSGCombiner3D" unique_id=1440494179 instance=ExtResource("9_x2ult")]
+transform = Transform3D(11.699153, 0, 16.221277, 0, 20, 0, -16.221277, 0, 11.699153, -87.823875, -17.384113, -463.1647)
+
 [node name="Tree 36" parent="CSGCombiner3D" unique_id=131484170 instance=ExtResource("9_x2ult")]
 transform = Transform3D(5.8495765, 0, 8.110639, 0, 10, 0, -8.110639, 0, 5.8495765, -52.66147, -22.150032, -189.47656)
 
@@ -5055,10 +5168,23 @@ transform = Transform3D(0.5849576, 0, 0.81106377, 0, 1, 0, -0.81106377, 0, 0.584
 transform = Transform3D(0.5849576, 0, 0.8110637, 0, 1, 0, -0.8110637, 0, 0.5849576, -61.401764, -22.868504, -291.5355)
 
 [node name="Giant" parent="CSGCombiner3D" unique_id=341022100 instance=ExtResource("19_unhwq")]
-transform = Transform3D(0.8241262, 0, -0.56640625, 0, 1, 0, 0.56640625, 0, 0.8241262, -183.10844, -15.083164, 30.105972)
+transform = Transform3D(0.8241262, 0, -0.56640625, 0, 1, 0, 0.56640625, 0, 0.8241262, -205.091, -15.083164, 43.253265)
 
 [node name="Statue Base" parent="CSGCombiner3D" unique_id=1070697058 instance=ExtResource("20_yqrud")]
 transform = Transform3D(-15, 0, 1.3113416e-06, 0, 15, 0, -1.3113416e-06, 0, -15, -198.52135, -23.240053, -241.41608)
+
+[node name="Label3D" type="Label3D" parent="CSGCombiner3D/Statue Base" unique_id=786369418]
+transform = Transform3D(-4.371141e-08, 0, -0.9999996, 0, 0.9999996, 0, 0.9999996, 0, -4.371141e-08, -0.5231085, 0.28151536, 0)
+shaded = true
+modulate = Color(0.6439232, 0.4662817, 0.026440531, 1)
+outline_modulate = Color(0.52251047, 0.47294402, 0.045430847, 1)
+text = "Here lies Emmeline, 
+our beloved princess who
+sacrificed herself to save
+our town from dark forces."
+font = ExtResource("25_a0hcx")
+font_size = 12
+outline_size = 2
 
 [node name="lightning princess" parent="CSGCombiner3D" unique_id=1833207788 instance=ExtResource("21_ddkgx")]
 transform = Transform3D(-0.64532274, 0, 9.9791565, 0, 10, 0, -9.9791565, 0, -0.64532274, -199.36723, 7.8094797, -241.41846)
@@ -6863,14 +6989,59 @@ transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 146.47142, -21.809565, 270.56
 [node name="Metal stool" parent="CSGCombiner3D" unique_id=143641537 instance=ExtResource("41_xbuei")]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -133.13098, -22.589914, -471.2296)
 
+[node name="Metal stool4" parent="CSGCombiner3D" unique_id=1844563980 instance=ExtResource("41_xbuei")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -133.13098, -22.589914, -436.6932)
+
+[node name="Metal stool6" parent="CSGCombiner3D" unique_id=1282709168 instance=ExtResource("41_xbuei")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -141.67056, -22.589914, -425.18777)
+
+[node name="Metal stool5" parent="CSGCombiner3D" unique_id=1051181609 instance=ExtResource("41_xbuei")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -190.60182, -22.589914, -434.3791)
+
+[node name="Metal stool14" parent="CSGCombiner3D" unique_id=1965726474 instance=ExtResource("41_xbuei")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -213.10342, -22.589914, -444.58777)
+
+[node name="Metal stool7" parent="CSGCombiner3D" unique_id=1499765403 instance=ExtResource("41_xbuei")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -186.811, -22.589914, -421.88104)
+
+[node name="Metal stool12" parent="CSGCombiner3D" unique_id=1450203152 instance=ExtResource("41_xbuei")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -160.9084, -22.589914, -403.9573)
+
+[node name="Metal stool13" parent="CSGCombiner3D" unique_id=521096207 instance=ExtResource("41_xbuei")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -154.05527, -22.589914, -393.01556)
+
+[node name="Metal stool8" parent="CSGCombiner3D" unique_id=1104258345 instance=ExtResource("41_xbuei")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -195.5148, -22.589914, -424.58826)
+
 [node name="Metal stool2" parent="CSGCombiner3D" unique_id=1145022334 instance=ExtResource("41_xbuei")]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -120.57205, -22.589914, -475.71213)
 
 [node name="Metal stool3" parent="CSGCombiner3D" unique_id=80079502 instance=ExtResource("41_xbuei")]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -122.92115, -22.589914, -464.07217)
 
+[node name="Metal stool9" parent="CSGCombiner3D" unique_id=1081661254 instance=ExtResource("41_xbuei")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -122.35627, -22.589914, -371.3745)
+
+[node name="Metal stool10" parent="CSGCombiner3D" unique_id=1796673754 instance=ExtResource("41_xbuei")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -133.7396, -22.589914, -372.58575)
+
+[node name="Metal stool11" parent="CSGCombiner3D" unique_id=424438429 instance=ExtResource("41_xbuei")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -128.22952, -22.589914, -363.87183)
+
 [node name="Metal table" parent="CSGCombiner3D" unique_id=1340929653 instance=ExtResource("42_idy2o")]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -126.10392, -22.238253, -470.4528)
+
+[node name="Metal table2" parent="CSGCombiner3D" unique_id=1453906 instance=ExtResource("42_idy2o")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -128.67465, -22.238253, -369.3965)
+
+[node name="Metal table3" parent="CSGCombiner3D" unique_id=6792790 instance=ExtResource("42_idy2o")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -158.61244, -22.238253, -398.28537)
+
+[node name="Metal table5" parent="CSGCombiner3D" unique_id=1676158844 instance=ExtResource("42_idy2o")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -189.67928, -22.238253, -427.93826)
+
+[node name="Metal table4" parent="CSGCombiner3D" unique_id=512597266 instance=ExtResource("42_idy2o")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -137.6372, -22.238253, -430.6532)
 
 [node name="Pillar" parent="CSGCombiner3D" unique_id=1858164141 instance=ExtResource("13_idy2o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.71637, -26.851097, -447.82745)
@@ -6884,13 +7055,322 @@ transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, -171.19354, -18.902916, 263.4
 [node name="Stagecoach" parent="CSGCombiner3D" unique_id=421060562 instance=ExtResource("43_rcpsq")]
 transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, -57.12233, -20.44654, 312.10822)
 
+[node name="Blankposter" parent="CSGCombiner3D" unique_id=1790928086 instance=ExtResource("46_56l26")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -219.60854, -6.517789, -402.25104)
+
+[node name="Label3D" type="Label3D" parent="CSGCombiner3D/Blankposter" unique_id=1993216587]
+transform = Transform3D(-4.3711392e-08, 0, 1, 0, 1, 0, -1, 0, -4.3711392e-08, 0.46828842, 0.06854296, 0.43180466)
+text = "MENU:
+SM APPLE 2.50
+MD APPLE 4.00
+LG APPLE 7.00
+"
+font = ExtResource("47_7u6hc")
+font_size = 50
+outline_size = 0
+horizontal_alignment = 0
+
+[node name="Longwoodtable" parent="CSGCombiner3D" unique_id=477736506 instance=ExtResource("48_rpr4p")]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -153.4733, -24.019783, -472.12064)
+
+[node name="Apple" parent="CSGCombiner3D" unique_id=1073423089 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -211.08965, -20.176302, -400.00848)
+
+[node name="Apple19" parent="CSGCombiner3D" unique_id=330148865 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(0.76604444, 0, 0.6427876, 0, 1, 0, -0.6427876, 0, 0.76604444, -82.976456, -9.102167, -458.99765)
+
+[node name="Apple24" parent="CSGCombiner3D" unique_id=1837740442 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(0.9990482, 0, -0.043619383, 0, 1, 0, 0.043619383, 0, 0.9990482, -82.269585, -9.102167, -460.61453)
+
+[node name="Apple20" parent="CSGCombiner3D" unique_id=1580466167 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(0.76604444, 0, 0.6427876, 0, 1, 0, -0.6427876, 0, 0.76604444, -82.976456, -9.102167, -466.14774)
+
+[node name="Apple25" parent="CSGCombiner3D" unique_id=311091693 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(0.76604444, 0, 0.6427876, 0, 1, 0, -0.6427876, 0, 0.76604444, -93.10868, -9.102167, -467.22314)
+
+[node name="Apple3" parent="CSGCombiner3D" unique_id=1596958904 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(0.971961, 0, -0.23514211, 0, 1, 0, 0.23514211, 0, 0.971961, -208.37999, -20.176302, -401.5135)
+
+[node name="Apple4" parent="CSGCombiner3D" unique_id=1427985312 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(0.42606077, 0, -1.9540912, 0, 2, 0, 1.9540912, 0, 0.42606077, -210.2059, -19.754885, -403.236)
+
+[node name="Apple21" parent="CSGCombiner3D" unique_id=1684026637 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(0.42606077, 0, -1.9540912, 0, 2, 0, 1.9540912, 0, 0.42606077, -85.99522, -9.993025, -457.58832)
+
+[node name="Apple23" parent="CSGCombiner3D" unique_id=1253786970 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(0.42606077, 0, -1.9540912, 0, 2, 0, 1.9540912, 0, 0.42606077, -80.8901, -9.993025, -463.38226)
+
+[node name="Apple22" parent="CSGCombiner3D" unique_id=884135307 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(1.6241671, 0, 1.1670824, 0, 2, 0, -1.1670824, 0, 1.6241671, -89.69735, -9.993025, -459.63043)
+
+[node name="Apple10" parent="CSGCombiner3D" unique_id=1816358325 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(0.42606077, 0, -1.9540912, 0, 2, 0, 1.9540912, 0, 0.42606077, -183.56416, -19.491749, -425.92096)
+
+[node name="Apple11" parent="CSGCombiner3D" unique_id=1568635365 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(1.6241671, 0, 1.1670824, 0, 2, 0, -1.1670824, 0, 1.6241671, -181.58397, -19.491749, -427.21188)
+
+[node name="Apple5" parent="CSGCombiner3D" unique_id=841401133 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(-1.1557153, 0, 1.6322751, 0, 2, 0, -1.6322751, 0, -1.1557153, -209.07077, -19.754885, -405.4542)
+
+[node name="Apple6" parent="CSGCombiner3D" unique_id=1412760534 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(-2.9070473, 0, -0.74099666, 0, 3, 0, 0.74099666, 0, -2.9070473, -210.83513, -19.224052, -407.78506)
+
+[node name="Apple17" parent="CSGCombiner3D" unique_id=1287639972 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(-2.9070473, 0, -0.74099666, 0, 3, 0, 0.74099666, 0, -2.9070473, -89.35105, -10.250264, -457.7336)
+
+[node name="Apple18" parent="CSGCombiner3D" unique_id=1137072581 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(-1.0995035, 0, -2.7912529, 0, 3, 0, 2.7912529, 0, -1.0995035, -83.71601, -10.250264, -468.69153)
+
+[node name="Apple9" parent="CSGCombiner3D" unique_id=268520329 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(-2.9146476, 0, 0.71051437, 0, 3, 0, -0.71051437, 0, -2.9146476, -182.10931, -18.94386, -429.21112)
+
+[node name="Apple7" parent="CSGCombiner3D" unique_id=1063219250 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(2.7873979, 0, 1.1092398, 0, 3, 0, -1.1092398, 0, 2.7873979, -153.4166, -19.224052, -473.9666)
+
+[node name="Apple8" parent="CSGCombiner3D" unique_id=2000498819 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(2.7873979, 0, 1.1092398, 0, 3, 0, -1.1092398, 0, 2.7873979, -195.70413, -18.132965, -465.82553)
+
+[node name="Apple2" parent="CSGCombiner3D" unique_id=2015264095 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(0.29737487, 0, -0.9547608, 0, 1, 0, 0.9547608, 0, 0.29737487, -209.52475, -20.176302, -398.29297)
+
+[node name="Apple16" parent="CSGCombiner3D" unique_id=1985903853 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(0.29737487, 0, -0.9547608, 0, 1, 0, 0.9547608, 0, 0.29737487, -184.20535, -19.695477, -427.22437)
+
+[node name="Apple12" parent="CSGCombiner3D" unique_id=759140695 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(-0.1856666, 0, -0.9826128, 0, 1, 0, 0.9826128, 0, -0.1856666, -180.87715, -19.825222, -428.1327)
+
+[node name="Apple13" parent="CSGCombiner3D" unique_id=1940471402 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(0.15988123, 0, 0.98713624, 0, 1, 0, -0.98713624, 0, 0.15988123, -180.87715, -19.825222, -425.88846)
+
+[node name="Apple15" parent="CSGCombiner3D" unique_id=1606193613 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(0.2249512, 0, -0.97436994, 0, 1, 0, 0.97436994, 0, 0.2249512, -181.94234, -19.748062, -424.5414)
+
+[node name="Apple14" parent="CSGCombiner3D" unique_id=1332378748 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(0.15988123, 0, 0.98713624, 0, 1, 0, -0.98713624, 0, 0.15988123, -179.89394, -19.825222, -427.5399)
+
+[node name="Longwoodtable2" parent="CSGCombiner3D" unique_id=1002170357 instance=ExtResource("48_rpr4p")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -211.08965, -24.019783, -400.00848)
+
+[node name="Abigail" parent="CSGCombiner3D" unique_id=1454506318 instance=ExtResource("50_j3jwn")]
+transform = Transform3D(1.3041966, 0, 1.5162686, 0, 2, 0, -1.5162686, 0, 1.3041966, -180.12947, -19.125408, -422.1684)
+
+[node name="Fence17" parent="CSGCombiner3D" unique_id=917499203 instance=ExtResource("35_5omet")]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -101.127945, -15.20824, -447.16907)
+
+[node name="Fence18" parent="CSGCombiner3D" unique_id=609761719 instance=ExtResource("35_5omet")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -73.29273, -15.20824, -457.19205)
+
+[node name="Snail" parent="CSGCombiner3D" unique_id=185177336 instance=ExtResource("12_kcqjl")]
+transform = Transform3D(-0.789084, 0, -0.61428523, 0, 1, 0, 0.61428523, 0, -0.789084, -211.6305, -15.236917, 5.2536073)
+
+[node name="Snail2" parent="CSGCombiner3D" unique_id=1418361672 instance=ExtResource("12_kcqjl")]
+transform = Transform3D(-0.9156625, 0, -0.40194774, 0, 1, 0, 0.40194774, 0, -0.9156625, -210.75873, -15.236917, 0.386971)
+
+[node name="Snail3" parent="CSGCombiner3D" unique_id=834345768 instance=ExtResource("12_kcqjl")]
+transform = Transform3D(-0.94028807, 0, -0.34037948, 0, 1, 0, 0.34037948, 0, -0.94028807, -211.8172, -15.236917, -4.2320313)
+
+[node name="Blankposter2" parent="CSGCombiner3D" unique_id=330142798 instance=ExtResource("46_56l26")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -108.08723, -10.638876, -400.83524)
+
+[node name="Label3D" type="Label3D" parent="CSGCombiner3D/Blankposter2" unique_id=82402830]
+transform = Transform3D(-4.3711392e-08, 0, 1, 0, 1, 0, -1, 0, -4.3711392e-08, 0.46767807, 0.020991325, -0.10749817)
+modulate = Color(1, 0.38247633, 0.32888913, 1)
+outline_modulate = Color(8.362718e-07, 0.31577006, 0.13557252, 1)
+text = "APPLE
+HOUSE"
+font = ExtResource("47_7u6hc")
+font_size = 128
+
+[node name="Blankposter3" parent="CSGCombiner3D" unique_id=1987032863 instance=ExtResource("46_56l26")]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, -223.44734, -9.498053, -22.05338)
+
+[node name="Sprite3D" type="Sprite3D" parent="CSGCombiner3D/Blankposter3" unique_id=1160502759]
+transform = Transform3D(-3.496911e-09, 0, 0.08, 0, 0.08, 0, -0.08, 0, -3.496911e-09, 0.46781254, -0.016168028, -0.15616786)
+texture = ExtResource("55_4qkpf")
+
+[node name="Label3D" type="Label3D" parent="CSGCombiner3D/Blankposter3" unique_id=909943655]
+transform = Transform3D(-4.3711392e-08, 0, 1, 0, 1, 0, -1, 0, -4.3711392e-08, 0.46733856, 0.41016382, 0.12494975)
+modulate = Color(0.8871706, 0.8125145, 0, 1)
+text = "EPIC SNAIL MERCH
+AVAILABLE NOW!"
+font = ExtResource("58_0l8bh")
+font_size = 16
+
+[node name="Longwoodtable3" parent="CSGCombiner3D" unique_id=1466161513 instance=ExtResource("48_rpr4p")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -209.23161, -23.78261, -20.9374)
+
+[node name="Longwoodtable4" parent="CSGCombiner3D" unique_id=1989500442 instance=ExtResource("48_rpr4p")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -157.94484, -23.78261, -62.969646)
+
+[node name="Longwoodtable5" parent="CSGCombiner3D" unique_id=160901222 instance=ExtResource("48_rpr4p")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -140.40755, -23.78261, -62.969646)
+
+[node name="Longwoodtable6" parent="CSGCombiner3D" unique_id=363886291 instance=ExtResource("48_rpr4p")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -157.94484, -23.78261, 11.998882)
+
+[node name="Longwoodtable7" parent="CSGCombiner3D" unique_id=1240260864 instance=ExtResource("48_rpr4p")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -140.40755, -23.78261, 11.998882)
+
+[node name="Longwoodtable8" parent="CSGCombiner3D" unique_id=1756177088 instance=ExtResource("48_rpr4p")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -157.94484, -23.78261, -26.042362)
+
+[node name="Longwoodtable9" parent="CSGCombiner3D" unique_id=1249117470 instance=ExtResource("48_rpr4p")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -140.40755, -23.78261, -26.042362)
+
+[node name="Longwoodtable10" parent="CSGCombiner3D" unique_id=414355815 instance=ExtResource("48_rpr4p")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -122.95572, -23.78261, -62.969646)
+
+[node name="Longwoodtable11" parent="CSGCombiner3D" unique_id=100857189 instance=ExtResource("48_rpr4p")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -105.41843, -23.78261, -62.969646)
+
+[node name="Longwoodtable12" parent="CSGCombiner3D" unique_id=1592987721 instance=ExtResource("48_rpr4p")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -122.95572, -23.78261, 11.998882)
+
+[node name="Longwoodtable13" parent="CSGCombiner3D" unique_id=1653249531 instance=ExtResource("48_rpr4p")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -105.41843, -23.78261, 11.998882)
+
+[node name="Longwoodtable14" parent="CSGCombiner3D" unique_id=1653701924 instance=ExtResource("48_rpr4p")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -122.95572, -23.78261, -26.042362)
+
+[node name="Longwoodtable15" parent="CSGCombiner3D" unique_id=124054560 instance=ExtResource("48_rpr4p")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -105.41843, -23.78261, -26.042362)
+
+[node name="foldedshirt" parent="CSGCombiner3D" unique_id=452167518 instance=ExtResource("59_stduh")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -205.98796, -19.678112, -22.050182)
+
+[node name="Sprite3D" type="Sprite3D" parent="CSGCombiner3D/foldedshirt" unique_id=342521229]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -0.16033602, 0.07488918, -0.47445488)
+pixel_size = 0.02
+texture_filter = 0
+texture = ExtResource("60_fjltq")
+
+[node name="foldedshirt2" parent="CSGCombiner3D" unique_id=2093579982 instance=ExtResource("59_stduh")]
+transform = Transform3D(-3.059797e-07, 0, 7, 0, 7, 0, -7, 0, -3.059797e-07, -206.2029, -19.91765, -28.916985)
+
+[node name="Sprite3D2" type="Sprite3D" parent="CSGCombiner3D/foldedshirt2" unique_id=540030890]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -0.17160654, 0.10994959, -0.47445488)
+pixel_size = 0.02
+texture_filter = 0
+texture = ExtResource("4_u5q6v")
+
+[node name="StaticBody3D" parent="CSGCombiner3D" unique_id=983718569 instance=ExtResource("61_5cp1y")]
+transform = Transform3D(2.7279935, 0, -2.9254146, 0, 4, 0, 2.9254146, 0, 2.7279935, -196.03185, -15.084181, 37.16289)
+
+[node name="Woodcounter" parent="CSGCombiner3D" unique_id=1379142806 instance=ExtResource("62_g21lx")]
+transform = Transform3D(4.7739887, 0, -5.119476, 0, 7, 0, 5.119476, 0, 4.7739887, -196.16924, -19.892506, 37.388706)
+
+[node name="StaticBody3D2" parent="CSGCombiner3D" unique_id=190185079 instance=ExtResource("61_5cp1y")]
+transform = Transform3D(-3.9999998, 0, 3.4969108e-07, 0, 4, 0, -3.4969108e-07, 0, -3.9999998, -206.47308, -15.084181, -438.9909)
+
+[node name="Woodcounter2" parent="CSGCombiner3D" unique_id=907690816 instance=ExtResource("62_g21lx")]
+transform = Transform3D(-6.9999995, 0, 6.119594e-07, 0, 7, 0, -6.119594e-07, 0, -6.9999995, -206.61047, -19.892506, -438.7651)
+
+[node name="Shelf" parent="CSGCombiner3D" unique_id=128650604 instance=ExtResource("53_vqeh1")]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, -205.01859, -15.265844, 0)
+
+[node name="Shelf2" parent="CSGCombiner3D" unique_id=1934948496 instance=ExtResource("53_vqeh1")]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, -205.01859, -15.265844, -48.15973)
+
+[node name="Shelf3" parent="CSGCombiner3D" unique_id=1348898152 instance=ExtResource("53_vqeh1")]
+transform = Transform3D(-20, 0, -1.7484556e-06, 0, 20, 0, 1.7484556e-06, 0, -20, -40.43215, -15.265844, -50.36672)
+
+[node name="sunflower" parent="CSGCombiner3D/Shelf3" unique_id=2010262361 instance=ExtResource("25_4d50r")]
+transform = Transform3D(-0.19105569, 0.059141602, 2.5851614e-09, 0, -8.742278e-09, 0.2, 0.059141602, 0.19105569, 8.35131e-09, -0.33669937, -0.051103115, -0.20662689)
+
+[node name="StaticBody3D" parent="CSGCombiner3D/Shelf3" unique_id=974895016 instance=ExtResource("33_5q0fw")]
+transform = Transform3D(0.07536948, -0.053106632, 0.038718563, -0.061237242, -0.03535534, 0.07071068, -0.023862978, -0.077004455, -0.05916817, -0.22739792, -0.011599481, 0.12689781)
+
+[node name="Shelf5" parent="CSGCombiner3D" unique_id=2094826228 instance=ExtResource("53_vqeh1")]
+transform = Transform3D(-20, 0, -1.7484556e-06, 0, 20, 0, 1.7484556e-06, 0, -20, -40.43215, -15.265844, -74.35715)
+
+[node name="ring" parent="CSGCombiner3D/Shelf5" unique_id=723682505 instance=ExtResource("62_fjltq")]
+transform = Transform3D(0.016735286, 0, -0.010951264, 0, 0.02, 0, 0.010951264, 0, 0.016735286, -0.26823902, -0.044394016, 0)
+
+[node name="ring2" parent="CSGCombiner3D/Shelf5" unique_id=1943984027 instance=ExtResource("62_fjltq")]
+transform = Transform3D(-0.01578168, 0, -0.012285706, 0, 0.02, 0, 0.012285706, 0, -0.01578168, -0.3399086, -0.044394016, 0.1337707)
+
+[node name="Big Rock" parent="CSGCombiner3D/Shelf5" unique_id=461195225 instance=ExtResource("15_p5tck")]
+transform = Transform3D(-0.07360972, 0, -0.06768759, 0, 0.1, 0, 0.06768759, 0, -0.07360972, -0.3518802, -0.0032143593, -0.23713708)
+
+[node name="Shelf4" parent="CSGCombiner3D" unique_id=294058787 instance=ExtResource("53_vqeh1")]
+transform = Transform3D(-20, 0, -1.7484556e-06, 0, 20, 0, 1.7484556e-06, 0, -20, -40.43215, -15.265844, -98.52644)
+
+[node name="Sword" parent="CSGCombiner3D/Shelf4" unique_id=893641405 instance=ExtResource("18_566oi")]
+transform = Transform3D(-0.31544712, -0.0798204, 0.73083633, -0.1962459, 0.77555627, 1.1697163e-08, -0.7085058, -0.17927954, -0.3253893, -0.03995788, -0.21325195, -0.6017113)
+
+[node name="Apple" parent="CSGCombiner3D/Shelf4" unique_id=451760904 instance=ExtResource("49_j3jwn")]
+transform = Transform3D(-0.045399066, 0, 0.08910066, 0, 0.1, 0, -0.08910066, 0, -0.045399066, -0.2975464, -0.0007337928, 0.1593113)
+
+[node name="mug" parent="CSGCombiner3D" unique_id=1032562251 instance=ExtResource("57_cw50e")]
+transform = Transform3D(-0.16504766, 0, -0.98628557, 0, 1, 0, 0.98628557, 0, -0.16504766, -211.45193, -15.3894415, -46.12479)
+
+[node name="Sprite3D" type="Sprite3D" parent="CSGCombiner3D/mug" unique_id=530216974]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0256958, -0.4809103, -0.49716187)
+pixel_size = 0.03
+texture_filter = 0
+texture = ExtResource("2_vqeh1")
+
+[node name="mug2" parent="CSGCombiner3D" unique_id=1873539706 instance=ExtResource("57_cw50e")]
+transform = Transform3D(0.08193853, 0, -0.9966374, 0, 1, 0, 0.9966374, 0, 0.08193853, -210.70042, -15.3894415, -44.097195)
+
+[node name="Sprite3D" type="Sprite3D" parent="CSGCombiner3D/mug2" unique_id=1312131307]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0256958, -0.4809103, -0.49716187)
+pixel_size = 0.03
+texture_filter = 0
+texture = ExtResource("2_vqeh1")
+
+[node name="mug3" parent="CSGCombiner3D" unique_id=9484179 instance=ExtResource("57_cw50e")]
+transform = Transform3D(-0.16504766, 0, -0.98628557, 0, 1, 0, 0.98628557, 0, -0.16504766, -211.45193, -15.3894415, -50.12479)
+
+[node name="Sprite3D" type="Sprite3D" parent="CSGCombiner3D/mug3" unique_id=403224404]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0256958, -0.4809103, -0.49716187)
+pixel_size = 0.03
+texture_filter = 0
+texture = ExtResource("2_vqeh1")
+
+[node name="mug4" parent="CSGCombiner3D" unique_id=20306156 instance=ExtResource("57_cw50e")]
+transform = Transform3D(0.08193853, 0, -0.9966374, 0, 1, 0, 0.9966374, 0, 0.08193853, -210.70042, -15.3894415, -48.097195)
+
+[node name="Sprite3D" type="Sprite3D" parent="CSGCombiner3D/mug4" unique_id=1605890695]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0256958, -0.4809103, -0.49716187)
+pixel_size = 0.03
+texture_filter = 0
+texture = ExtResource("2_vqeh1")
+
+[node name="mug5" parent="CSGCombiner3D" unique_id=842886679 instance=ExtResource("57_cw50e")]
+transform = Transform3D(-0.16504766, 0, -0.98628557, 0, 1, 0, 0.98628557, 0, -0.16504766, -211.45193, -15.3894415, -54.12479)
+
+[node name="Sprite3D" type="Sprite3D" parent="CSGCombiner3D/mug5" unique_id=412723244]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0256958, -0.4809103, -0.49716187)
+pixel_size = 0.03
+texture_filter = 0
+texture = ExtResource("2_vqeh1")
+
+[node name="mug6" parent="CSGCombiner3D" unique_id=1055391442 instance=ExtResource("57_cw50e")]
+transform = Transform3D(0.08193853, 0, -0.9966374, 0, 1, 0, 0.9966374, 0, 0.08193853, -210.70042, -15.3894415, -52.097195)
+
+[node name="Sprite3D" type="Sprite3D" parent="CSGCombiner3D/mug6" unique_id=1375350358]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0256958, -0.4809103, -0.49716187)
+pixel_size = 0.03
+texture_filter = 0
+texture = ExtResource("2_vqeh1")
+
+[node name="Robot" parent="." unique_id=1774327623 instance=ExtResource("44_07ktq")]
+transform = Transform3D(-3.9590285, 0, 0.5710457, 0, 4, 0, -0.5710457, 0, -3.9590285, -172.5839, -18.644993, -447.0439)
+sync_to_physics = false
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Robot" unique_id=718097307]
+callback_mode_process = 0
+libraries/ = SubResource("AnimationLibrary_a0hcx")
+autoplay = &"Panic"
+
 [node name="ProtoController" parent="." unique_id=1536340472 instance=ExtResource("1_f1076")]
-transform = Transform3D(4.834117, 0, -1.2772288, 0, 5, 0, 1.2772288, 0, 4.834117, 96.650894, -23.949314, 120.865814)
+transform = Transform3D(9.668234, 0, -2.5544577, 0, 10, 0, 2.5544577, 0, 9.668234, 96.650894, -23.949314, 328.85455)
 base_speed = 30.0
 jump_velocity = 15.0
 input_jump = "jump"
 
-[node name="Snail" parent="." unique_id=185177336 instance=ExtResource("12_kcqjl")]
+[node name="Snail" parent="." unique_id=1215093625 instance=ExtResource("12_kcqjl")]
 transform = Transform3D(0.7349146, 0, 0.67815965, 0, 1, 0, -0.67815965, 0, 0.7349146, 156.28589, -22.404114, 51.15422)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Snail" unique_id=130226268]
@@ -6925,7 +7405,18 @@ spot_range = 700.0
 spot_attenuation = -0.3
 spot_angle = 89.99
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1364795747]
-stream = ExtResource("47_mljdi")
-autoplay = true
-bus = &"BGM"
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=2113867840]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -120.268616, -6.000366, -154.3141)
+size = Vector3(11.410889, 13.000732, 0.36376953)
+material = ExtResource("67_g21lx")
+
+[node name="Label3D" type="Label3D" parent="CSGBox3D" unique_id=2140244749]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0.09657049, -0.20658875)
+text = "TABLE SALE
+ALL TABLES
+ARE 50%
+MARKED PRICE
+ALL SALES FINAL"
+font = ExtResource("68_xrlw8")
+font_size = 256
+line_spacing = 40.0
