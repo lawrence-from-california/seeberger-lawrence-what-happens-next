@@ -14,6 +14,7 @@
 [ext_resource type="Texture2D" uid="uid://ctvdm84y1ljms" path="res://Assets/Snaily/Tomatocopter1.png" id="4_u5q6v"]
 [ext_resource type="Texture2D" uid="uid://uskvd2bnhcbm" path="res://Assets/Snaily/Madflower1.png" id="5_0l8bh"]
 [ext_resource type="PackedScene" uid="uid://mqbcm3apwqci" path="res://Assets/import_examples/barrel/doorway_no_door.tscn" id="7_274q2"]
+[ext_resource type="Material" uid="uid://b8qvi6uuun3dy" path="res://Assets/Materials/staircase.tres" id="7_xrlw8"]
 [ext_resource type="PackedScene" uid="uid://clr2fuk47bfnv" path="res://Assets/dungeon_assets/building/wall_corner.glb" id="8_a35v5"]
 [ext_resource type="PackedScene" uid="uid://cmabdi7d3hyhi" path="res://Scenes/OBJECTS/tree.tscn" id="9_x2ult"]
 [ext_resource type="FontFile" uid="uid://r1y3utxgeyr8" path="res://Scenes/LEVELS/ScratchedOut-Regular.otf" id="10_ae6jh"]
@@ -37,6 +38,7 @@
 [ext_resource type="FontFile" uid="uid://bkjwngtatl552" path="res://Assets/FineBritishArtist-Regular.otf" id="25_a0hcx"]
 [ext_resource type="PackedScene" uid="uid://evhjo1uopd6v" path="res://Scenes/OBJECTS/Mushroom.tscn" id="26_fed8f"]
 [ext_resource type="PackedScene" uid="uid://clywp8evtcnes" path="res://Scenes/OBJECTS/log.tscn" id="27_ebqv6"]
+[ext_resource type="PackedScene" uid="uid://ncaf78hcdqjv" path="res://Scenes/OBJECTS/ghost.tscn" id="28_hiixg"]
 [ext_resource type="PackedScene" uid="uid://dvqdqrlf7y7or" path="res://Scenes/OBJECTS/magpie.tscn" id="28_l357c"]
 [ext_resource type="PackedScene" uid="uid://by3nisxj30efs" path="res://Scenes/OBJECTS/humpty_dumpty.tscn" id="29_gvyd8"]
 [ext_resource type="PackedScene" uid="uid://dtt127eets7yq" path="res://Scenes/OBJECTS/flames.tscn" id="30_mrkk4"]
@@ -68,6 +70,8 @@
 [ext_resource type="PackedScene" uid="uid://fvrue33a57ki" path="res://Scenes/OBJECTS/woodcounter.tscn" id="62_g21lx"]
 [ext_resource type="Material" uid="uid://bk8rq2bydt4av" path="res://Assets/Bark Texture.tres" id="67_g21lx"]
 [ext_resource type="FontFile" uid="uid://n5at0stjt3bf" path="res://Scenes/BigBad-Regular.otf" id="68_xrlw8"]
+[ext_resource type="PackedScene" uid="uid://b3cmegw6dygxj" path="res://Assets/Materials/water.tscn" id="70_xoyyv"]
+[ext_resource type="PackedScene" uid="uid://dtpub4opjueim" path="res://Assets/Materials/octopus.tscn" id="71_hiixg"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_f1076"]
 sky_top_color = Color(0.11060319, 0.52594155, 0.47827816, 1)
@@ -140,6 +144,44 @@ metallic = 0.51
 roughness_texture = ExtResource("2_tknu4")
 
 [sub_resource type="ORMMaterial3D" id="ORMMaterial3D_otpxj"]
+
+[sub_resource type="Animation" id="Animation_y7f6v"]
+resource_name = "Floating"
+length = 100.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(38.166668, 40.2, 41.166668, 42.2, 43.166668, 44.233334, 45.166668, 46.2, 48.17),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(-185.31847, -26.707048, -241.41608), Vector3(-185.31847, -8.519182, -241.41608), Vector3(-185.31847, -13.1509695, -241.41608), Vector3(-185.31847, -9.97673, -241.41608), Vector3(-185.31847, -13.182444, -241.41608), Vector3(-185.31847, -11.13539, -241.41608), Vector3(-185.31847, -13.3655405, -241.41608), Vector3(-185.31847, -11.968244, -241.41608), Vector3(-185.31847, -29.838238, -241.41608)]
+}
+
+[sub_resource type="Animation" id="Animation_mqfry"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-185.31847, -26.707048, -241.41608)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_oamjv"]
+_data = {
+&"Floating": SubResource("Animation_y7f6v"),
+&"RESET": SubResource("Animation_mqfry")
+}
 
 [sub_resource type="Animation" id="Animation_07ktq"]
 resource_name = "Panic"
@@ -268,6 +310,44 @@ _data = {
 &"flying": SubResource("Animation_rcpsq")
 }
 
+[sub_resource type="Animation" id="Animation_xoyyv"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0.20769419, -2.4626596, -0.090757124)]
+}
+
+[sub_resource type="Animation" id="Animation_hiixg"]
+resource_name = "Splash"
+length = 0.76666665
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.23333333, 0.5, 0.73333335),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0.09424778, -2.4626596, -0.006981317), Vector3(0.20769419, -2.4626596, -0.090757124), Vector3(0.20769419, -2.846632, 0.1605703), Vector3(-0.017453292, -2.591814, 0.022689281)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_y7f6v"]
+_data = {
+&"RESET": SubResource("Animation_xoyyv"),
+&"Splash": SubResource("Animation_hiixg")
+}
+
 [node name="Level_Prototype" type="Node3D" unique_id=1926063042]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=217563546]
@@ -318,14 +398,14 @@ size = Vector3(50, 393.0974, 50)
 material = ExtResource("12_sggf4")
 
 [node name="Ramp" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1520036001]
-transform = Transform3D(1, 0, 0, 0, 0.19423431, 0.9809551, 0, -0.9809551, 0.19423431, -1.1780396, -65.905266, 140.66405)
-size = Vector3(50, 300, 80)
-material = ExtResource("12_sggf4")
+transform = Transform3D(1, 0, 0, 0, 0.19423431, 0.9809551, 0, -0.9809551, 0.19423431, -1.1780396, -49.64743, 58.55596)
+size = Vector3(50, 132.59564, 80)
+material = ExtResource("7_xrlw8")
 
 [node name="Ramp2" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1785991161]
-transform = Transform3D(1, 0, 0, 0, 0.5906056, -0.8069602, 0, 0.8069602, 0.5906056, 1.387, -120.35, -489.076)
-size = Vector3(50, 300, 80)
-material = ExtResource("12_sggf4")
+transform = Transform3D(1, 0, 0, 0, 0.5906056, -0.8069602, 0, 0.8069602, 0.5906056, 1.387, -44.9506, -386.0558)
+size = Vector3(50, 44.6709, 80)
+material = ExtResource("7_xrlw8")
 
 [node name="CSGCylinder3D" type="CSGCylinder3D" parent="CSGCombiner3D" unique_id=2143092644]
 transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -4.4057007, -10.862698, 0)
@@ -5170,6 +5250,13 @@ transform = Transform3D(0.5849576, 0, 0.8110637, 0, 1, 0, -0.8110637, 0, 0.58495
 [node name="Giant" parent="CSGCombiner3D" unique_id=341022100 instance=ExtResource("19_unhwq")]
 transform = Transform3D(0.8241262, 0, -0.56640625, 0, 1, 0, 0.56640625, 0, 0.8241262, -205.091, -15.083164, 43.253265)
 
+[node name="Ghost" parent="CSGCombiner3D" unique_id=866992624 instance=ExtResource("28_hiixg")]
+transform = Transform3D(0.1675028, 0.6802407, 3.9381738, 0, 3.9416313, -0.6808379, -3.996491, 0.028510569, 0.16505858, -185.31847, -26.707048, -241.41608)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="CSGCombiner3D/Ghost" unique_id=1644384575]
+libraries/ = SubResource("AnimationLibrary_oamjv")
+autoplay = &"Floating"
+
 [node name="Statue Base" parent="CSGCombiner3D" unique_id=1070697058 instance=ExtResource("20_yqrud")]
 transform = Transform3D(-15, 0, 1.3113416e-06, 0, 15, 0, -1.3113416e-06, 0, -15, -198.52135, -23.240053, -241.41608)
 
@@ -7420,3 +7507,13 @@ ALL SALES FINAL"
 font = ExtResource("68_xrlw8")
 font_size = 256
 line_spacing = 40.0
+
+[node name="Pool" parent="." unique_id=1718137175 instance=ExtResource("70_xoyyv")]
+transform = Transform3D(30, 0, 0, 0, 30, 0, 0, 0, 30, 208.82864, -16.283312, -460.16583)
+
+[node name="Octopus" parent="Pool" unique_id=1817896140 instance=ExtResource("71_hiixg")]
+transform = Transform3D(-0.15266077, -0.03989797, -0.12289341, -0.017736947, 0.19489636, -0.041240808, 0.12798452, -0.020580528, -0.15230347, -0.13003159, -0.43937773, 0.5199051)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Pool/Octopus" unique_id=1753561173]
+libraries/ = SubResource("AnimationLibrary_y7f6v")
+autoplay = &"Splash"

@@ -3,6 +3,8 @@
 [ext_resource type="Texture2D" uid="uid://ueuv5b1legit" path="res://Assets/dungeon_assets/Snail Slime.png" id="1_doofg"]
 
 [resource]
+transparency = 1
+albedo_color = Color(1.9280748, 9.717713, 0, 0.5254902)
 albedo_texture = ExtResource("1_doofg")
 metallic_specular = 1.0
 roughness = 0.24
