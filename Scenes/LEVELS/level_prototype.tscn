@@ -23,22 +23,41 @@
 [ext_resource type="PackedScene" uid="uid://t0bmkr3u2mn0" path="res://Scenes/OBJECTS/snail.tscn" id="12_kcqjl"]
 [ext_resource type="Material" uid="uid://cwlsohg8yil4p" path="res://Assets/import_examples/barrel/treebarkmaterial.tres" id="12_sggf4"]
 [ext_resource type="PackedScene" uid="uid://cdgkknatajd6s" path="res://Scenes/OBJECTS/pillar.tscn" id="13_idy2o"]
+[ext_resource type="Texture2D" uid="uid://dc02qejg4exlf" path="res://Assets/Materials/Autumn Personal Injury.png" id="13_jvx8c"]
+[ext_resource type="Texture2D" uid="uid://c57b55omqolpu" path="res://Assets/Materials/THE WEIRD LITTLE MERMAID 2 SIGNED COPY.png" id="13_v53k2"]
 [ext_resource type="Material" uid="uid://bccs857u33bhl" path="res://Assets/Materials/dirt.tres" id="14_4pbc5"]
 [ext_resource type="PackedScene" uid="uid://bba0ffqmfaagl" path="res://Scenes/OBJECTS/conifer.tscn" id="14_c5qpp"]
+[ext_resource type="Texture2D" uid="uid://de5we25xang30" path="res://Assets/Materials/DO NOT FEED.png" id="14_y7f6v"]
+[ext_resource type="Texture2D" uid="uid://b3gm61snshimo" path="res://Assets/Materials/BE THE CHANGE YOU WANT TO SEE IN THE WORLD.png" id="15_mqfry"]
 [ext_resource type="PackedScene" uid="uid://bpcaf0fodid0n" path="res://Scenes/OBJECTS/big_rock.tscn" id="15_p5tck"]
 [ext_resource type="Material" uid="uid://bt83lmbkg0abe" path="res://Assets/Materials/sand.tres" id="15_uclfd"]
 [ext_resource type="PackedScene" uid="uid://ddrds05tu7ty6" path="res://Scenes/OBJECTS/grass.tscn" id="16_f13b3"]
+[ext_resource type="Texture2D" uid="uid://cofes5l66a8" path="res://Assets/Materials/THE WEIRD LITTLE MERMAID 1.png" id="16_spk84"]
+[ext_resource type="Texture2D" uid="uid://bdbu5knekm81f" path="res://Assets/Materials/phonto (12).jpg" id="17_5qurp"]
+[ext_resource type="Texture2D" uid="uid://db04f07bafqnv" path="res://Assets/Materials/GORGEOUS GOOSE.png" id="17_jsoya"]
+[ext_resource type="Texture2D" uid="uid://2xny2wvfi0pq" path="res://Assets/LIL HOPPY FROG GOES BANANAS.png" id="17_l3hu3"]
+[ext_resource type="Texture2D" uid="uid://dxegtd8xicyje" path="res://Assets/POPS AND PINS.png" id="18_3i6n8"]
 [ext_resource type="PackedScene" uid="uid://qtd0547yl2dt" path="res://Scenes/OBJECTS/sword.tscn" id="18_566oi"]
+[ext_resource type="Texture2D" uid="uid://lypfvipfb6q3" path="res://Assets/Materials/phonto (13).jpg" id="18_m3oqw"]
+[ext_resource type="Texture2D" uid="uid://b2lfe0h8shhf1" path="res://Assets/Materials/Walrus.png" id="18_v53k2"]
 [ext_resource type="PackedScene" uid="uid://c0jxu0s8nscxt" path="res://Scenes/OBJECTS/salamander.tscn" id="19_unhwq"]
+[ext_resource type="Texture2D" uid="uid://dtt3cdq16464v" path="res://Assets/Materials/KIWI PIE THE ANIME.png" id="20_3rsfj"]
 [ext_resource type="PackedScene" uid="uid://crmrhi88x5cpn" path="res://Scenes/OBJECTS/statue_base.tscn" id="20_yqrud"]
 [ext_resource type="PackedScene" uid="uid://cayka086k38g6" path="res://Scenes/OBJECTS/lightning_princess.tscn" id="21_ddkgx"]
+[ext_resource type="Texture2D" uid="uid://drfjif8fp5721" path="res://Assets/Materials/KIWI PIE THE COMPLETE SEASONS 1-8.png" id="21_spk84"]
+[ext_resource type="Texture2D" uid="uid://cxmt6li47dnk1" path="res://Assets/Materials/MAP of CALIFORNIA.png" id="22_3yce5"]
 [ext_resource type="PackedScene" uid="uid://dcjjhn34glr4f" path="res://Scenes/OBJECTS/headstone.tscn" id="22_v8pkc"]
+[ext_resource type="Texture2D" uid="uid://c3r0j00kg7pyg" path="res://Assets/Materials/Beware the ANTEATERMAN.png" id="22_yvjdu"]
 [ext_resource type="PackedScene" uid="uid://bc0dx3rpiks5" path="res://Scenes/OBJECTS/cross_headstone.tscn" id="23_4pbc5"]
+[ext_resource type="Texture2D" uid="uid://t1jrl663vtnk" path="res://Assets/Materials/SNAILFIE AND FRIENDS.png" id="23_l3hu3"]
 [ext_resource type="PackedScene" uid="uid://gidow4tneco4" path="res://Scenes/OBJECTS/sunflower.tscn" id="25_4d50r"]
 [ext_resource type="FontFile" uid="uid://bkjwngtatl552" path="res://Assets/FineBritishArtist-Regular.otf" id="25_a0hcx"]
 [ext_resource type="PackedScene" uid="uid://evhjo1uopd6v" path="res://Scenes/OBJECTS/Mushroom.tscn" id="26_fed8f"]
+[ext_resource type="Texture2D" uid="uid://dkvp5vdo8lgwc" path="res://Assets/Materials/STEPDADDER.png" id="27_csi3s"]
 [ext_resource type="PackedScene" uid="uid://clywp8evtcnes" path="res://Scenes/OBJECTS/log.tscn" id="27_ebqv6"]
 [ext_resource type="PackedScene" uid="uid://ncaf78hcdqjv" path="res://Scenes/OBJECTS/ghost.tscn" id="28_hiixg"]
+[ext_resource type="Texture2D" uid="uid://ckknmjxd81t2s" path="res://Assets/Materials/phonto (11).jpg" id="28_ijke5"]
+[ext_resource type="Texture2D" uid="uid://cqm607m3y1niw" path="res://Assets/Materials/JIM.png" id="28_jsoya"]
 [ext_resource type="PackedScene" uid="uid://dvqdqrlf7y7or" path="res://Scenes/OBJECTS/magpie.tscn" id="28_l357c"]
 [ext_resource type="PackedScene" uid="uid://by3nisxj30efs" path="res://Scenes/OBJECTS/humpty_dumpty.tscn" id="29_gvyd8"]
 [ext_resource type="PackedScene" uid="uid://dtt127eets7yq" path="res://Scenes/OBJECTS/flames.tscn" id="30_mrkk4"]
@@ -72,6 +91,7 @@
 [ext_resource type="FontFile" uid="uid://n5at0stjt3bf" path="res://Scenes/BigBad-Regular.otf" id="68_xrlw8"]
 [ext_resource type="PackedScene" uid="uid://b3cmegw6dygxj" path="res://Assets/Materials/water.tscn" id="70_xoyyv"]
 [ext_resource type="PackedScene" uid="uid://dtpub4opjueim" path="res://Assets/Materials/octopus.tscn" id="71_hiixg"]
+[ext_resource type="PackedScene" uid="uid://ymctj6civ0d8" path="res://Scenes/OBJECTS/billboard.tscn" id="85_m3oqw"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_f1076"]
 sky_top_color = Color(0.11060319, 0.52594155, 0.47827816, 1)
@@ -181,6 +201,45 @@ tracks/0/keys = {
 _data = {
 &"Floating": SubResource("Animation_y7f6v"),
 &"RESET": SubResource("Animation_mqfry")
+}
+
+[sub_resource type="Animation" id="Animation_m3oqw"]
+resource_name = "Movement"
+length = 100.0
+loop_mode = 2
+step = 0.01
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.0333333, 1.3333334, 8, 54.4, 56.033333),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(1072.4403, 122.850006, -302.0754), Vector3(1072.4403, 122.850006, -302.0754), Vector3(1072.4403, 122.850006, -302.0754), Vector3(-4365.658, 122.850006, -302.0754), Vector3(-4365.658, 122.850006, -302.0754)]
+}
+
+[sub_resource type="Animation" id="Animation_6su64"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1072.4403, 122.850006, -302.0754)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_vc1d4"]
+_data = {
+&"Movement": SubResource("Animation_m3oqw"),
+&"RESET": SubResource("Animation_6su64")
 }
 
 [sub_resource type="Animation" id="Animation_07ktq"]
@@ -444,6 +503,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -179.53825, -27, 59.25167)
 [node name="Wall14" parent="CSGCombiner3D" unique_id=1227729077 instance=ExtResource("1_a7xsu")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -145.15352, -27, 59.25167)
 
+[node name="Sprite3D" type="Sprite3D" parent="CSGCombiner3D/Wall14" unique_id=517167169]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.604355, 17.320724, 2.556816)
+texture = ExtResource("13_jvx8c")
+
 [node name="Wall3" parent="CSGCombiner3D" unique_id=528877096 instance=ExtResource("1_a7xsu")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -178.25946, -27, -151)
 
@@ -458,6 +521,34 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -217
 
 [node name="TWall2" parent="CSGCombiner3D" unique_id=284967363 instance=ExtResource("2_gxjpg")]
 transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, -26.79657, -27.017918, 59.358437)
+
+[node name="Sprite3D" type="Sprite3D" parent="CSGCombiner3D/TWall2" unique_id=1074625467]
+transform = Transform3D(-2.1855694e-08, 0, -0.5, 0, 0.5, 0, 0.5, 0, -2.1855694e-08, -2.5022774, 19.010088, 11.22266)
+texture = ExtResource("16_spk84")
+
+[node name="Sprite3D2" type="Sprite3D" parent="CSGCombiner3D/TWall2" unique_id=447493610]
+transform = Transform3D(-2.1855694e-08, 0, -0.5, 0, 0.5, 0, 0.5, 0, -2.1855694e-08, -2.6111298, 21.285938, 22.7499)
+texture = ExtResource("13_v53k2")
+
+[node name="Sprite3D6" type="Sprite3D" parent="CSGCombiner3D/TWall2" unique_id=1206325761]
+transform = Transform3D(-2.1855694e-08, 0, -0.5, 0, 0.5, 0, 0.5, 0, -2.1855694e-08, -2.6103897, 29.153831, 20.93069)
+texture = ExtResource("17_5qurp")
+
+[node name="Sprite3D7" type="Sprite3D" parent="CSGCombiner3D/TWall2" unique_id=1675930037]
+transform = Transform3D(-2.1855694e-08, 0, -0.5, 0, 0.5, 0, 0.5, 0, -2.1855694e-08, -2.6103897, 27.910463, 39.746063)
+texture = ExtResource("18_m3oqw")
+
+[node name="Sprite3D5" type="Sprite3D" parent="CSGCombiner3D/TWall2" unique_id=1294399475]
+transform = Transform3D(-2.1855694e-08, 0, -0.5, 0, 0.5, 0, 0.5, 0, -2.1855694e-08, -2.6393738, 23.013018, 56.221024)
+texture = ExtResource("17_jsoya")
+
+[node name="Sprite3D3" type="Sprite3D" parent="CSGCombiner3D/TWall2" unique_id=636597009]
+transform = Transform3D(-2.1855694e-08, 0, -0.5, 0, 0.5, 0, 0.5, 0, -2.1855694e-08, -2.6100197, 19.3458, 31.185059)
+texture = ExtResource("17_l3hu3")
+
+[node name="Sprite3D4" type="Sprite3D" parent="CSGCombiner3D/TWall2" unique_id=656810585]
+transform = Transform3D(-1.3113417e-08, 0, -0.3, 0, 0.3, 0, 0.3, 0, -1.3113417e-08, -2.626297, 20.311663, 36.956184)
+texture = ExtResource("18_3i6n8")
 
 [node name="TWall4" parent="CSGCombiner3D" unique_id=154226621 instance=ExtResource("2_gxjpg")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -217.7741, -27.017918, 59.358437)
@@ -624,6 +715,10 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -217
 [node name="Wall44" parent="CSGCombiner3D" unique_id=1561421621 instance=ExtResource("1_a7xsu")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -178.09042, -27, -483.1858)
 
+[node name="Sprite3D" type="Sprite3D" parent="CSGCombiner3D/Wall44" unique_id=320526023]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.590256, 20.722, 2.5051575)
+texture = ExtResource("14_y7f6v")
+
 [node name="Wall45" parent="CSGCombiner3D" unique_id=1450645755 instance=ExtResource("1_a7xsu")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -141.3546, -27, -483.1858)
 
@@ -702,6 +797,14 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -217
 [node name="Wall12" parent="CSGCombiner3D" unique_id=1504138103 instance=ExtResource("1_a7xsu")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -217.45357, -27, 42.58645)
 
+[node name="Sprite3D" type="Sprite3D" parent="CSGCombiner3D/Wall12" unique_id=221585526]
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 19.840458, 18.24091, 2.5027008)
+texture = ExtResource("15_mqfry")
+
+[node name="Sprite3D2" type="Sprite3D" parent="CSGCombiner3D/Wall12" unique_id=694360769]
+transform = Transform3D(0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, 0.9995079, 18.24091, 2.5119781)
+texture = ExtResource("22_3yce5")
+
 [node name="Wall87" parent="CSGCombiner3D" unique_id=1248623371 instance=ExtResource("1_a7xsu")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -217.45357, -27, 98.50982)
 
@@ -722,6 +825,38 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -26.
 
 [node name="Doorway no door" parent="CSGCombiner3D" unique_id=915771655 instance=ExtResource("7_274q2")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -26.835842, -27.034147, 0)
+
+[node name="Sprite3D" type="Sprite3D" parent="CSGCombiner3D/Doorway no door" unique_id=434094565]
+transform = Transform3D(-0.4, 0, -6.039832e-08, 0, 0.4, 0, 6.039832e-08, 0, -0.4, -21.346478, 20.570057, -2.5690918)
+texture = ExtResource("18_v53k2")
+
+[node name="Sprite3D4" type="Sprite3D" parent="CSGCombiner3D/Doorway no door" unique_id=1688514776]
+transform = Transform3D(-0.4, 0, -6.039832e-08, 0, 0.4, 0, 6.039832e-08, 0, -0.4, -14.221647, 17.22046, -2.6113548)
+texture = ExtResource("20_3rsfj")
+
+[node name="Sprite3D5" type="Sprite3D" parent="CSGCombiner3D/Doorway no door" unique_id=1350205639]
+transform = Transform3D(-0.4, 0, -6.039832e-08, 0, 0.4, 0, 6.039832e-08, 0, -0.4, -14.221647, 21.837864, -2.6113548)
+texture = ExtResource("21_spk84")
+
+[node name="Sprite3D2" type="Sprite3D" parent="CSGCombiner3D/Doorway no door" unique_id=652486559]
+transform = Transform3D(-0.4, 0, -6.039832e-08, 0, 0.4, 0, 6.039832e-08, 0, -0.4, -38.377132, 19.628445, -2.5690937)
+texture = ExtResource("22_yvjdu")
+
+[node name="Sprite3D8" type="Sprite3D" parent="CSGCombiner3D/Doorway no door" unique_id=1322182959]
+transform = Transform3D(-0.3, 0, -4.5298744e-08, 0, 0.3, 0, 4.5298744e-08, 0, -0.3, -30.083744, 20.001305, -2.5690937)
+texture = ExtResource("28_ijke5")
+
+[node name="Sprite3D3" type="Sprite3D" parent="CSGCombiner3D/Doorway no door" unique_id=1136516442]
+transform = Transform3D(-0.4, 0, -6.039832e-08, 0, 0.4, 0, 6.039832e-08, 0, -0.4, -38.585186, 26.294834, -2.5733414)
+texture = ExtResource("23_l3hu3")
+
+[node name="Sprite3D6" type="Sprite3D" parent="CSGCombiner3D/Doorway no door" unique_id=274686291]
+transform = Transform3D(-0.4, 0, -6.039832e-08, 0, 0.4, 0, 6.039832e-08, 0, -0.4, -48.607677, 16.041323, -2.5733414)
+texture = ExtResource("27_csi3s")
+
+[node name="Sprite3D7" type="Sprite3D" parent="CSGCombiner3D/Doorway no door" unique_id=2065553542]
+transform = Transform3D(-0.4, 0, -6.039832e-08, 0, 0.4, 0, 6.039832e-08, 0, -0.4, -44.738285, 15.642946, -2.5733414)
+texture = ExtResource("28_jsoya")
 
 [node name="Doorway no door5" parent="CSGCombiner3D" unique_id=771815351 instance=ExtResource("7_274q2")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 25.992867, -27.034147, 0)
@@ -7442,6 +7577,13 @@ pixel_size = 0.03
 texture_filter = 0
 texture = ExtResource("2_vqeh1")
 
+[node name="2dcloud" parent="CSGCombiner3D" unique_id=840736860 instance=ExtResource("85_m3oqw")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 1072.4403, 122.850006, -302.0754)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="CSGCombiner3D/2dcloud" unique_id=1022844594]
+libraries/ = SubResource("AnimationLibrary_vc1d4")
+autoplay = &"Movement"
+
 [node name="Robot" parent="." unique_id=1774327623 instance=ExtResource("44_07ktq")]
 transform = Transform3D(-3.9590285, 0, 0.5710457, 0, 4, 0, -0.5710457, 0, -3.9590285, -172.5839, -18.644993, -447.0439)
 sync_to_physics = false
@@ -7512,7 +7654,7 @@ line_spacing = 40.0
 transform = Transform3D(30, 0, 0, 0, 30, 0, 0, 0, 30, 208.82864, -16.283312, -460.16583)
 
 [node name="Octopus" parent="Pool" unique_id=1817896140 instance=ExtResource("71_hiixg")]
-transform = Transform3D(-0.15266077, -0.03989797, -0.12289341, -0.017736947, 0.19489636, -0.041240808, 0.12798452, -0.020580528, -0.15230347, -0.13003159, -0.43937773, 0.5199051)
+transform = Transform3D(-0.15266077, -0.039897975, -0.12289341, -0.017736947, 0.19489639, -0.041240808, 0.12798452, -0.02058053, -0.15230347, -0.13003159, -0.43937773, 0.5199051)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Pool/Octopus" unique_id=1753561173]
 libraries/ = SubResource("AnimationLibrary_y7f6v")
