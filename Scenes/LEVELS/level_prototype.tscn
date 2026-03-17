@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://bicn35g1lnvn6"]
 
 [ext_resource type="PackedScene" uid="uid://cw552dnut01wl" path="res://Scenes/OBJECTS/merch.tscn" id="1_0dlbs"]
+[ext_resource type="VoxelGIData" uid="uid://blxio5wm4lcck" path="res://Scenes/LEVELS/level_prototype.VoxelGI_data.res" id="1_6su64"]
 [ext_resource type="PackedScene" uid="uid://c26msiirqqcm6" path="res://Scenes/OBJECTS/wall.tscn" id="1_a7xsu"]
 [ext_resource type="Texture2D" uid="uid://ctgerkdmafuua" path="res://Assets/import_examples/barrel/Troll Castle.png" id="1_a35v5"]
 [ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://AddOns/proto_controller/proto_controller.tscn" id="1_f1076"]
@@ -408,6 +409,22 @@ _data = {
 }
 
 [node name="Level_Prototype" type="Node3D" unique_id=1926063042]
+
+[node name="VoxelGI" type="VoxelGI" parent="." unique_id=1819863681]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -434.4037, -4.496643, -114.85687)
+subdiv = 0
+size = Vector3(1467.18, 138.49142, 1543.209)
+data = ExtResource("1_6su64")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1198241744]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -200.30824, -15.306714, -472.02216)
+light_color = Color(1, 0.68333334, 0, 1)
+light_energy = 16.0
+light_indirect_energy = 16.0
+light_volumetric_fog_energy = 8.937
+light_size = 0.234
+omni_range = 49.843
+omni_attenuation = -0.135
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=217563546]
 environment = SubResource("Environment_gxjpg")
@@ -7606,16 +7623,6 @@ transform = Transform3D(0.7349146, 0, 0.67815965, 0, 1, 0, -0.67815965, 0, 0.734
 libraries/ = SubResource("AnimationLibrary_p5tck")
 autoplay = &"Movement"
 
-[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1198241744]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -200.30824, -15.306714, -472.02216)
-light_color = Color(1, 0.68333334, 0, 1)
-light_energy = 16.0
-light_indirect_energy = 16.0
-light_volumetric_fog_energy = 8.937
-light_size = 0.234
-omni_range = 49.843
-omni_attenuation = -0.135
-
 [node name="UFO" parent="." unique_id=645959736 instance=ExtResource("45_idy2o")]
 transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 0, 110.824905, 746.13806)
 
@@ -7654,7 +7661,7 @@ line_spacing = 40.0
 transform = Transform3D(30, 0, 0, 0, 30, 0, 0, 0, 30, 208.82864, -16.283312, -460.16583)
 
 [node name="Octopus" parent="Pool" unique_id=1817896140 instance=ExtResource("71_hiixg")]
-transform = Transform3D(-0.15266077, -0.039897975, -0.12289341, -0.017736947, 0.19489639, -0.041240808, 0.12798452, -0.02058053, -0.15230347, -0.13003159, -0.43937773, 0.5199051)
+transform = Transform3D(-0.15266077, -0.039897982, -0.12289341, -0.017736947, 0.19489641, -0.041240808, 0.12798452, -0.020580534, -0.15230347, -0.13003159, -0.43937773, 0.5199051)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Pool/Octopus" unique_id=1753561173]
 libraries/ = SubResource("AnimationLibrary_y7f6v")
